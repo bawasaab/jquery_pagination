@@ -1,0 +1,33 @@
+li a.rm-cursor{
+	cursor: auto;
+}
+label.gotobtn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #3071a9 none repeat scroll 0 0;
+    border-color: #3071a9;
+    border-image: none;
+    border-radius: 1px 4px 4px 0;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #fff;
+    font-weight: normal;
+    height: 2.4em;
+    line-height: 31px;
+    padding: 0 11px;
+}
+.pagingGoto {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #dedede #dedede #dedede -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    height: 2.4em;
+    width: 55px;
+	padding: 6px 10px;
+}
