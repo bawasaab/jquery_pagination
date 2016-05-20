@@ -1,6 +1,6 @@
 # jquery_pagination
 
-use this library for web page pagication
+use this library for web page pagination
 
 1. Add in your html <br>
   &lt;div&gt;&lt;ul id="paging" class="pagination pull-right"&gt;&lt;/ul&gt;&lt;/div&gt;<br>
