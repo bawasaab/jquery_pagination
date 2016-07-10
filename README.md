@@ -6,7 +6,7 @@
   <b>&lt;div&gt;&lt;ul id="paging" class="pagination pull-right"&gt;&lt;/ul&gt;&lt;/div&gt;</b><br>
 
 2. use <b><i>bootstrap</i></b> for css
-3. add <b><i>jquery_pagination_custom.css</i></b> in your assets or css folder<br><br>
+3. add <b><i>jquery_pagination_custom.css</i></b> in your assets or css folder<br>
 4. Add <b><i>jquery_pagination.js</i></b> in your assets or js folder<br>
 5. Call below javascript <b><i>function (paging)</i></b> with mentioned parameters<br><br>
   <b><i>function paging( limit, totRec, offset, callback )</i></b><br><br>
