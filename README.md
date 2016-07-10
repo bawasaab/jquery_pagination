@@ -1,20 +1,20 @@
-# jquery_pagination
+<b># jquery_pagination</b>
 
-use this library for web page pagination
+<i>use this library for web page pagination</i>
 
 1. Add in your html <br>
-  &lt;div&gt;&lt;ul id="paging" class="pagination pull-right"&gt;&lt;/ul&gt;&lt;/div&gt;<br>
+  <b>&lt;div&gt;&lt;ul id="paging" class="pagination pull-right"&gt;&lt;/ul&gt;&lt;/div&gt;</b><br>
 
-2. use bootstrap for css
-3. add custom.css
-4. Add jquery_pagination.js<br>
-  function paging( limit, totRec, offset, callback )<br>
-  limit total number of records show on the page <br>
-  totRec total number of records in the table <br>
-  offset total number of records in the table  var offset = 0; <br>
-  callback function name of the function which gets the records from database <br>
+2. use <b><i>bootstrap</i></b> for css
+3. add <b><i>jquery_pagination_custom.css</i></b>
+4. Add<b><i>jquery_pagination.js</i></b><br><br>
+  <b>function paging( limit, totRec, offset, callback )</b><br>
+  <b>limit</b>    :  total number of records show on the page <br>
+  <b>totRec</b>   :  total number of records in the table <br>
+  <b>offset</b>   :  total number of records in the table  var offset = 0; <br>
+  <b>callback</b> :  function name of the function which gets the records from database <br>
 
-5. Example
+5. <b><i>Example</i></b>
     
     function main_unit_master( offset )<br>
     {<br>
