@@ -2,7 +2,7 @@
 
 <i>use this library for web page pagination</i>
 
-1. Add in your html <br>
+1. Add below div in your html where you want the paginations links to be display <br>
   <b>&lt;div&gt;&lt;ul id="paging" class="pagination pull-right"&gt;&lt;/ul&gt;&lt;/div&gt;</b><br>
 
 2. use <b><i>bootstrap</i></b> for css
