@@ -7,7 +7,8 @@
 
 2. use <b><i>bootstrap</i></b> for css
 3. add <b><i>jquery_pagination_custom.css</i></b>
-4. Add<b><i>jquery_pagination.js</i></b><br><br>
+4. Add <b><i>jquery_pagination.js</i></b><br><br>
+5. Call below <b><i>function (paging)</i></b> with mentioned parameters<br><br>
   <b>function paging( limit, totRec, offset, callback )</b><br>
   <b>limit</b>    :  total number of records show on the page <br>
   <b>totRec</b>   :  total number of records in the table <br>
