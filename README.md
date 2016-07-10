@@ -9,11 +9,11 @@
 3. add <b><i>jquery_pagination_custom.css</i></b> in your assets or css folder<br><br>
 4. Add <b><i>jquery_pagination.js</i></b> in your assets or js folder<br><br>
 5. Call below javascript <b><i>function (paging)</i></b> with mentioned parameters<br>
-  <b>function paging( limit, totRec, offset, callback )</b><br>
-  <b>limit</b>    :  total number of records show on the page <br>
-  <b>totRec</b>   :  total number of records in the table <br>
-  <b>offset</b>   :  total number of records in the table  var offset = 0; <br>
-  <b>callback</b> :  function name of the function which gets the records from database <br>
+  <b><i>function paging( limit, totRec, offset, callback )</i></b><br>
+  <b><i>limit</i></b>    :  total number of records show on the page <br>
+  <b><i>totRec</i></b>   :  total number of records in the table <br>
+  <b><i>offset</i></b>   :  total number of records in the table  var offset = 0; <br>
+  <b><i>callback</i></b> :  function name of the function which gets the records from database <br>
 
 5. <b><i>Example</i></b>
     
