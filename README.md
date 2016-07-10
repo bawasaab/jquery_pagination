@@ -6,9 +6,9 @@
   <b>&lt;div&gt;&lt;ul id="paging" class="pagination pull-right"&gt;&lt;/ul&gt;&lt;/div&gt;</b><br>
 
 2. use <b><i>bootstrap</i></b> for css
-3. add <b><i>jquery_pagination_custom.css</i></b>
-4. Add <b><i>jquery_pagination.js</i></b><br><br>
-5. Call below <b><i>function (paging)</i></b> with mentioned parameters<br><br>
+3. add <b><i>jquery_pagination_custom.css in your assets or css folder</i></b>
+4. Add <b><i>jquery_pagination.js in your assets or js folder</i></b><br><br>
+5. Call below javascript <b><i>function (paging)</i></b> with mentioned parameters<br><br>
   <b>function paging( limit, totRec, offset, callback )</b><br>
   <b>limit</b>    :  total number of records show on the page <br>
   <b>totRec</b>   :  total number of records in the table <br>
