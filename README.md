@@ -27,7 +27,7 @@
     			offset: offset<br>
     		},<br>
     		success: function( retdata ) {<br>
-          //function name would be the name of your same function as in this example is main_unit_master
+          //function name would be the name of your same function as in this example is main_unit_master<br>
     			paging( retdata.limit, retdata.total_records, offset, 'function_name'); <br>
     		},<br>
     		error: function(e){<br>
