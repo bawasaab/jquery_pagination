@@ -24,7 +24,15 @@ function paging( limit, totRec, offset, callback )
 		for( var  x = 1; x <= pages; x++ )
 		{
 			strt = parseInt(x-1)*limit;
-			var noLi = "<li title='"+x+"' id='selected"+strt+"' class='paginate_button paginate_no' onClick='"+callback+"("+strt+")'><a>"+x+"</a></li>";
+
+			if( x == (offset + 1) ) {
+
+				var noLi = "<li title='"+x+"' id='selected"+strt+"' class='paginate_button paginate_no active' onClick='"+callback+"("+strt+")'><a>"+x+"</a></li>";
+
+			} else {
+
+				var noLi = "<li title='"+x+"' id='selected"+strt+"' class='paginate_button paginate_no' onClick='"+callback+"("+strt+")'><a>"+x+"</a></li>";
+			}
 			$('ul#paging').append(noLi);
 		}
 		
